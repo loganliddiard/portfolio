@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: hwb(36 38% 7%);
+}
+
+h1 {
+  color: #8d4646;
+}
