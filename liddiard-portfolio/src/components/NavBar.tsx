@@ -1,11 +1,45 @@
 import React from "react";
-
-export default function NavBar{
+import { Grid, Paper, Typography, Button } from '@mui/material';
+import NavButton from '../components/NavButton';
+function NavBar(){
 
 return(
     
-    <h1>Todo: make this Nav Bar</h1>
+    <Paper>
+        <Grid container spacing={1} sx={{ padding: 1 }}>
+            <Grid item xs={3}>
+                
+                <NavButton label="Home" to='/Home'/>
+                
+                
+            </Grid>
+            <Grid item xs={3}>
+            
+                <NavButton label="About" to='/About'/>
+        
+            </Grid>
+
+            <Grid item xs={3}>
+
+    
+                <NavButton label="Projects" to='/Projects'/>
+    
+                
+            </Grid>
+
+            <Grid item xs={3}>
+
+                <NavButton label="Research" to='/Reseach'/>
+    
+            </Grid>
+            
+
+        </Grid>
+    </Paper>
+    
 
 );
+}
 
-};
+
+export default NavBar
