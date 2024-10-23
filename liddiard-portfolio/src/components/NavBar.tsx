@@ -6,7 +6,7 @@ function NavBar(){
 return(
     
     <Paper>
-        <Grid container spacing={1} sx={{ padding: 1 }}>
+        <Grid container sx={{ padding: 1 }}>
             <Grid item xs={3}>
                 
                 <NavButton label="Home" to='/Home'/>
