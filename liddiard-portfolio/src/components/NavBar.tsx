@@ -4,7 +4,7 @@ import NavButton from '../components/NavButton';
 function NavBar(){
 
 return(
-    
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
     <Paper>
         <Grid container sx={{ padding: 1 }}>
             <Grid item xs={3}>
@@ -36,6 +36,8 @@ return(
 
         </Grid>
     </Paper>
+   </div>
+
     
 
 );

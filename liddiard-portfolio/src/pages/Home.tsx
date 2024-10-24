@@ -35,7 +35,10 @@ const Home: React.FC = () => (
             
 
     </Grid>
+ 
     <NavBar/>
+  
+    
   
   </Container>
 
