@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid, Box, Paper, Typography, Button } from '@mui/material';
 import NavBar from '../components/NavBar';
-
+import IntroCard from '../components/IntroCard'
 const titles = ["Software Engineer",
                 "Game Developer",
                 "Researcher",
@@ -18,9 +18,7 @@ const Home: React.FC = () => (
             <Grid item xs={8}>
                 
             
-            <h1>Hi, I'm Logan Liddiard!</h1>
-            <p>I'm passionate about software engineering and game development.</p>
-            <p>Welcome to my portfolio! 🚀</p>
+            <IntroCard/>
           
                 
                 
